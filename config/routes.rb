@@ -6,9 +6,9 @@ Rails.application.routes.draw do
 
   get("/wizard_addition", { :controller => "addition", :action => "add_these" })
 
-  get("/subtract", { :controller => "subtract", :action => "show_sub_form" })
+  get("/subtract", { :controller => "subtraction", :action => "show_sub_form" })
 
-  get("/wizard_subtract", { :controller => "subtraction", :action => "subtract" })
+  get("/wizard_subtract", { :controller => "subtraction", :action => "subtract_these" })
 
   get("/multiply", { :controller => "multiplication", :action => "multiplication" })
 
